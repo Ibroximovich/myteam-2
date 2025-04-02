@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-SemiBold.woff') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-Bold.woff') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Livvic",sans-serif;
+    background-color: #014E56;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px !important;
+}
+.site-header{
+    padding: 73px 0 129px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-wrapper{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items:center;
+}
+.site-header-list {
+    display: flex;
+    gap: 40px;
+    transition: all 0.4s;
+}
+.site-header-list a:hover{
+     color:#F67E7E ;
+}
+.site-header-list-item{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+.header-btn{
+    padding: 0;
+margin: 0;}
+.site-header-contact{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: white;
+    padding: 9px 33px 11px 32px;
+    border-radius: 24px; 
+    border: 2px solid white;
+    transition: all 0.4s;
+}
+.site-header-contact:hover{
+    background-color: #F67E7E;
+    color: black;
+    border: #004047;
+}
+.site-header-contact:active{
+    background-color: white;
+    color: black;
+}
+.header-btn{
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+@media (max-width:583px){
+    .site-header{
+        padding: 48px 0 80px;
+    }
+    .site-headers{
+        padding: 0;
+        margin: 0;
+    }
+    .site-header-list,.site-header-contact{
+        display: none;
+    }
+    .header-btn{
+        display: block;
+    }
+   
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-bottom: 250px; 
+     background-image: url(../images/Group\ 7.svg);
+     background-repeat: no-repeat ;
+     background-size: 350px 100px;
+     background-position: right bottom;
+}
+.section{
+    background-image: url(../images/orqa-fon.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-size: 350px 200px;
+    background-position: calc(50% - 750px)top
+}
+.hero-section-title{
+    max-width:600px; 
+}
+.hero-section-title > h2{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    letter-spacing: 0px;
+    color: white;
+}
+.tailend{
+    color: #F67E7E;
+}
+.hero-line{
+    max-width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+    display: inline-block;
+    margin-bottom: 83px;
+}
+.hero-title-pr{
+   max-width: 445px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+    
+}
+.hero-section-build{
+    background-color: #012F34;
+    padding: 140px 0;
+    display: flex;
+    gap:125px;
+}
+.hero-line-span{
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    display: inline-block;
+    margin-bottom: 54px;
+}
+@media (max-width:583px){
+    .hero-section{
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+    }
+    .hero-section-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0px;
+        margin: 0 auto;  
+        margin-bottom: 18px;
+    }
+    .hero-line{
+        display: none;
+    }
+    .hero-title-pr{
+        margin-bottom: 200px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center; 
+    }
+    .hero-section{
+        background-position:center bottom;
+    }
+}
+.build{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.hero-section-build{
+    background-image: url(../images/8.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px 244px;
+}
+.build-title{
+    width: 445px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: white;
+}
+.hero-section-images{
+    display: flex;
+    flex-direction: column;
+     margin-top: 58px; 
+     gap: 32px;
+}
+.hero-section-images h3{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #F67E7E;
+    margin-bottom: 16px;
+}
+.hero-section-images p{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: white;  
+    opacity: 80%; 
+}
+.hero-section-list{
+     display: flex; 
+     width: 540px; 
+    align-items: start;
+    gap: 23px;
+}
+.hero-section-t{
+    display: flex;
+}
+.hero-section-second{
+    background-color: #004047;
+    padding: 140px 0;
+    text-align: center;
+    background-image: url(../images/rasm4.svg),url(../images/orqa-rasm.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: left top,right bottom;
+}
+.hero-section-second-image{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.hero-section-second h2{
+    width: 830px;
+    font-family:Livvic;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: white;
+    margin: 0 auto;
+}
+.hero-section-second-title{
+    width: 350px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-top: 92px;
+    
+}
+.hero-section-second-title h3{
+     margin-top: 24px; 
+    color: #79C8C7;
+}
+.hero-section-second-title-p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2px;
+    margin-bottom: 32px;
+}
+.p{
+    background-image: url(../images/qoshtirnoq.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 67px 56px;
+}
+.succes{
+    color:#79C8C7 ;
+}
+.hero-section-second-title-amazing{
+    width: 350px;
+}
+.hero-section-second-title-amazing img{
+    margin-top: 8px;
+}
+.hero-third-section{
+    background-color:#F67E7E;
+    background-image: url(../images/qizil-rasm.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.hero-third-container{
+    width: 917px;
+    display: flex;
+    justify-content: space-between;
+     padding: 76px 0; 
+     margin: 0 auto;
+}
+.hero-third-container h2{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+}
+.hero-third-container a{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: black;
+    padding: 9px 33px 11px 32px;
+    border-radius: 24px; 
+    border: 2px solid black;
+    transition: all 0.4s;
+}
+.hero-third-container a:hover{
+    background-color: white;
+    color: black;
+    border: white;
+}
+.hero-third-container a:active{
+    border: 3px solid black;
+}
+.hero-footer{
+    background-color: #002529;
+    padding: 48px 0;
+}
+.hero-footer-container{
+    display: flex;
+     align-items: center; 
+     gap: 125px;
+    color: white;
+}
+.footer-item{
+    color: white;
+   margin-right: 40px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    transition: all 0.4s;
+}
+.footer-item:hover{
+    color: #F67E7E;
+}
+.footer-title{
+    width: 237px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-top: 30px;
+    opacity: 60%;
+
+}
+.footer-img{
+    display: flex;
+    flex-direction: row;
+    gap:16px ;
+    margin-top: 28px;
+    position: relative;
+    left: 300px;
+}
+.footer-img a{
+    color: white;
+    transition: all 0.4s;
+}
+.footer-img a:hover{
+    color: #F67E7E;
+}
+.footer-text{
+    margin-top: 40px;
+    position: relative;
+    left: 170px;
+    opacity: 60%;
+} 
