@@ -285,7 +285,7 @@ body{
     background-size: 100px 244px;
 }
 .build-title{
-    width: 445px;
+    max-width: 445px;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
@@ -315,7 +315,7 @@ body{
 }
 .hero-section-list{
      display: flex; 
-     width: 540px; 
+     max-width: 540px; 
     align-items: start;
     gap: 23px;
 }
@@ -354,7 +354,7 @@ body{
         margin: 0px;
     }
     .build-title{
-        max-width: 70%;
+        max-width: 80%;
         margin-top: 30px;
         margin-bottom: 64px;
         font-size: 32px;
