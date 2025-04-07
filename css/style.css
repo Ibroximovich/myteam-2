@@ -355,7 +355,7 @@ body{
     }
     .build-title{
         max-width: 70%;
-        margin-top: 32px;
+        margin-top: 30px;
         margin-bottom: 64px;
         font-size: 32px;
         line-height: 32px;
@@ -364,11 +364,8 @@ body{
     .hero-section-list{
         flex-direction: column;
         align-items: center;
-        /* width: 100%; */
-         /* max-width: 327px; */
-         width: 100%;
+         max-width: 327px;
          text-align: center; 
-        margin: 0 auto;
        
     }
     .hero-section-list > img{
